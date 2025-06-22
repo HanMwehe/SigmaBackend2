@@ -1,3 +1,4 @@
-import app from "../index.js"
+import app from '../index.js';
+import { createServer } from '@vercel/node';
 
-export default app;
+export default createServer(app);
